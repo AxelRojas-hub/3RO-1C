@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+     
+    <link rel="stylesheet" href="../../assets/css/estilos.css">
+</head>
+<body>
+    <form id="loginForm" action="../controllers/AuthController.php?action=login" method="POST">
+        <h2>Iniciar Sesión</h2> <!-- Título del formulario -->
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+    
+        <label for="numero_documento">Número de Documento:</label>
+        <input type="text" id="numero_documento" name="numero_documento" required>
+    
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+    
+        <button type="submit">Iniciar Sesión</button>
+
+        <!-- Enlace para ir al formulario de registro -->
+        <a href="../../views/auth/register.html" class="register-link">¿No tienes una cuenta? Regístrate</a>
+    </form>
+</body>
+</html>

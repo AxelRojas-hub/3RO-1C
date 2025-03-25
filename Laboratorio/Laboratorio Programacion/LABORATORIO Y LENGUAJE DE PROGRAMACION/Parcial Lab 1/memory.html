@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="memory.css">
+    <script type="text/javascript" src="memory.js"></script>
+    <title>Memory</title>
+</head>
+<body onLoad="asignarCartas();">
+    <header><h1>Juego de Memoria</h1></header>
+    <div id="contenedorTablero">
+        <div id="divIzq">
+            <table id="idTablero">
+                <tr>
+                    <td id="1" class="carta" onclick="">0</td>
+                    <td id="2" class="carta" onclick="">0</td>
+                    <td id="3" class="carta" onclick="">0</td>
+                    <td id="4" class="carta" onclick="">0</td>
+                </tr>
+                <tr>
+                    <td id="5" class="carta" onclick="">0</td>
+                    <td id="6" class="carta" onclick="">0</td>
+                    <td id="7" class="carta" onclick="">0</td>
+                    <td id="8" class="carta" onclick="">0</td>
+                </tr>
+                <tr>
+                    <td id="9" class="carta" onclick="">0</td>
+                    <td id="10" class="carta" onclick="">0</td>
+                    <td id="11" class="carta" onclick="">0</td>
+                    <td id="12" class="carta" onclick="">0</td>
+                </tr>
+                <tr>
+                    <td id="13" class="carta" onclick="">0</td>
+                    <td id="14" class="carta" onclick="">0</td>
+                    <td id="15" class="carta" onclick="">0</td>
+                    <td id="16" class="carta" onclick="">0</td>
+                </tr>
+                <tr>
+                    <td id="17" class="carta" onclick="">0</td>
+                    <td id="18" class="carta" onclick="">0</td>
+                    <td id="19" class="carta" onclick="">0</td>
+                    <td id="20" class="carta" onclick="">0</td>
+                </tr>
+            </table>
+            <input type="button" value="Iniciar Juego" onClick="iniciar();">
+            <input type="button" value="Finalizar Juego" onClick="abandonar();">
+        </div>
+        <div>
+            <p id="partidas">Partida Nro: 1</p>
+            <p id="intentos">INTENTOS: 0</p>
+            <p id="aciertos">ACIERTOS: 0</p>
+            <p id="msjFinal"> </p>
+        </div>
+    </div>
+    <footer><h4>Laboratorio de programacion de lenguajes</h4></footer>
+</body>
+</html>

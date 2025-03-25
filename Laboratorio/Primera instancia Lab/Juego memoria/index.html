@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Ejercicio Parcial</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS externo si lo tienes -->
+</head>
+<body onload="contadorPartidas()">
+
+    <header>
+        <h1>Juego de memoria</h1>
+    </header>
+        <section id="marco1">
+            <article id="juego">
+                <table>
+                    <tr><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td></tr>
+                    <tr><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td></tr>
+                    <tr><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td></tr>
+                    <tr><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td></tr>
+                    <tr><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td><td class="carta">0</td></tr>
+                </table>
+                <button onclick="armarTablero()">Iniciar Juego</button>
+                <button onclick="finalizarJuegoAbandono()">Finalizar Juego</button>
+            </article>
+            <article id = "pantalla">
+                <div>
+                <p id="numpartida">PARTIDA NUMERO: 0</p>
+                <p id="intentos">CANTIDAD INTENTOS: 0</p>
+                <p id ="aciertos">CANTIDAD ACIERTOS: 0</p>
+                <p id = "mensajeFinal" >PARTIDA NRO: 1</p>
+                <p id = "tipofin"></p>
+                </div>
+            </article>
+
+
+
+        </section>
+    <footer>
+        <p>Primer Parcial Laboratorio 2024</p>
+    </footer>
+
+</body>
+</html>

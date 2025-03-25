@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+#marco1{
+    
+    background: rgb(233, 230, 78);
+    max-width: 70vw;
+    max-height: 60vh;
+    margin: auto; /*centro el marco */
+    border: 2px black solid;
+    border-radius: 20px;
+    border: 4px dotted #000; /*con esto hago la linea punteda*/ 
+}
+
+body section{
+    display: flex;/*Aca tenia el flex para que se*/
+    justify-content: center;
+    align-items: center;
+}
+td{
+    padding: 20px;
+    border: 2px rgb(249, 8, 8) solid;
+    
+}
+table{
+    border: 4px rgb(252, 7, 7) solid;
+}
+
+body{
+    background-color: rgb(201, 119, 133);
+}
+
+footer{
+    text-align: center;
+}
+#pantalla{
+    margin-bottom: 200px;
+    margin-left: 30px;
+}
+h1{
+    color: aliceblue;
+}
+button{
+    background-color: blue;
+    color: beige;
+    margin-top: 10px;
+}

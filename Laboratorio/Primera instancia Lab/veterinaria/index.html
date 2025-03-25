@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cotización</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de Cotización</h1>
+    <form id="cotizacionForm">
+        <label for="tipoServicio">Tipo de Servicio:</label>
+        <select id="tipoServicio" name="tipoServicio">
+            <option value="peluqueria">Peluquería</option>
+            <option value="bano">Baño</option>
+            <option value="limpiezaAcuario">Limpieza de Acuario</option>
+            <option value="vacunacion">Vacunación</option>
+            <option value="consultaMedica">Consulta Médica</option>
+        </select>
+        <!-- Aquí añadir los campos necesarios dependiendo del tipo de servicio -->
+        <div id="camposExtras"></div>
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+        <button type="submit">Enviar Cotización</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

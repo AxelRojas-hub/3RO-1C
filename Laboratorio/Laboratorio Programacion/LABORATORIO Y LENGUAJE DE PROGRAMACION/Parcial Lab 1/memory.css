@@ -1,0 +1,44 @@
+#idTablero{
+    background-color: lightblue;
+    border: 2px black solid;
+    margin: 10px;
+    margin-right: 20px;
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+td{
+    border: 1px black solid;
+    width: 30px;
+}
+#contenedorTablero{
+    border: 2px black dashed;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+
+input{
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+
+#divIzq{
+    float:left;
+}
+
+p{
+    font-weight: bolder;
+}
+
+h1, h4{
+    text-align: center;
+}
+body{
+    background-color: lightgray;
+}
