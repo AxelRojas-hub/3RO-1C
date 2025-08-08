@@ -1,0 +1,13 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+table th, table td{
+    border: solid black 1px;
+    text-align: center;
+}
+#tabla{
+    align-items: center;
+}

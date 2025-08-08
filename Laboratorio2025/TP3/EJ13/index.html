@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP3EJ13</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body onload="getLocalList()">
+    <h1>TP3EJ13</h1>
+    <form id="login-form">
+      <input
+        autofocus
+        type="text"
+        name="nombre-usuario"
+        id="nombre"
+        placeholder="Ingresá tu nombre"
+        required
+      />
+      <button type="button">ENVIAR</button>
+    </form>
+    <div class="login-msg" style="display: none">
+      <h2 class="login-usermsg"></h2>
+      <h3>
+        Visita nro. <span class="visit-counter"></span> - Ultimo Acceso:
+        15/03/2023
+      </h3>
+      <h4>Generá tu lista y mantenela actualizada</h4>
+    </div>
+    <section id="app">
+      <form id="list-form">
+        <input
+          class="list-form__input"
+          disabled
+          type="text"
+          id="list-item"
+          placeholder="Agrega un item a la lista"
+        />
+        <button disabled class="list-form__btn">Agregar a la Lista</button>
+      </form>
+      <ol id="list-container"></ol>
+      <button disabled class="list-reset-btn" type="button">
+        Borrar la lista de útiles
+      </button>
+    </section>
+  </body>
+</html>

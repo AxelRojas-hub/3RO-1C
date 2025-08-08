@@ -1,0 +1,76 @@
+:root{
+    color-scheme: dark;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form{
+    padding: 2rem;
+    border: 2px dashed white;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    width: 350px;
+}
+label{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    justify-content: start;
+}
+.resultsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+input{
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin: 12px auto;
+    width: 80%;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 8px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.dangerbtn{
+    background-color: red;
+    font-weight: bold;
+}
+.dangerbtn:hover{
+    background-color: white;
+    color: red;
+}
+.sendbtn{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.sendbtn:hover{
+    background-color: white;
+    color: green;
+}
+.spanResults{
+    font-size: 20px;
+    font-weight: 600;
+}
+.matchCounter{
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    text-decoration: wavy;
+    text-decoration-color: green;
+}
